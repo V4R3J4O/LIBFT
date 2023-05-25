@@ -71,19 +71,18 @@ Now you can use the functions from the LIBFT library in your project by includin
 
 ## Usage
 
-To use a function from the LIBFT library, include the corresponding header file in your code and call the function as you would with any other standard library function.
- 
+- To use a function from the LIBFT library, include the corresponding header file in your code and call the function as you would with any other standard library function.
     ```c
     #include "libft.h"
 
-    int main(void) 
-    {
-      char *str;
-
-      str = "Hello, LIBFT!";
-      ft_putstr(str);
-      return (0);
-    }
+      int   main(void)
+      {
+         char *str;
+         str = ft_strdup("Hello World!");
+         ft_putstr(str);
+         return (0);
+       }
+       
 
 ## Contributing
 
