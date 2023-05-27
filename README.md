@@ -40,7 +40,7 @@ To use the LIBFT library in your own projects, follow these steps:
 
 1. Clone the repository:
    ```shell
-   git clone https://github.com/your-username/libft.git
+   git clone https://github.com/V4R3J4O/LIBFT.git
 Change to the project directory:
 
 2. After cloning the repository, navigate to the project directory using the following command:
